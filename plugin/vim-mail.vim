@@ -15,9 +15,9 @@ set cpo&vim
 
 
 " Toggle spelllang
-if !hasmapto("<LocalLeader>l",'n')
-    noremap <LocalLeader>l :call vimmail#SwitchSpellLangs()<CR>
-endif
+"if !hasmapto("<LocalLeader>l",'n')
+    "noremap <LocalLeader>l :call vimmail#SwitchSpellLangs()<CR>
+"endif
 
 " Restore context {{{1
 let &cpo = s:save_cpo
